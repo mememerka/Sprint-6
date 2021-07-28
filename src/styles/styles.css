@@ -1,0 +1,73 @@
+
+.StartPage{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-image: url(../img/Background.png);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.primary:hover{
+    background-color: rgb(252, 197, 46);
+    cursor: pointer;
+}
+
+.title{
+    font-size: 50px;
+    color: white;
+}
+
+.subtitle{
+    margin-top: 0px;
+    color: white;
+}
+
+.Story{
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+.Story img{
+
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40%;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    background-color: rgb(129, 129, 129);
+}
+
