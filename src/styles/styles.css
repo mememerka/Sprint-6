@@ -35,12 +35,13 @@
 }
 
 .Story{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     min-width: 100%;
     min-height: 100%;
     background-size: cover;
     background-position: center;
-    padding-top: 80px;
-    padding-bottom: 200px;
 }
 
 .Story img{

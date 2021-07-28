@@ -25,12 +25,12 @@ function App() {
 
   return  <div className="Main">
             { inici ?
-            <div className="Story" style={{background:`url(${elements[currentposition].img})`,
+            <div className="Story" style={{backgroundImage:`url(${elements[currentposition].img})`,
                                             backgroundPosition: 'center',
                                             backgroundSize: '100%  100%',
                                             backgroundRepeat: 'no-repeat',
                                             width: '100%',
-                                            height: '100%'}} >
+                                            height: '100vh'}} >
               <div className="Buttons">
                 <button className="btn" onClick={ant}>Anterior</button>
                 <button className="btn" onClick={next}>Següent</button>
